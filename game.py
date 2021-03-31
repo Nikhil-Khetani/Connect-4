@@ -5,3 +5,6 @@ class state:
         if board == None:
             self.board == np.zeros()
         self.board = board
+
+    def findChildren(self):
+        return {}
